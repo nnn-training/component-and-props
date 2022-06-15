@@ -7,7 +7,7 @@ const prefectureCapitals = [
   { prefecture: '広島県', capital: '広島市' },
   { prefecture: '福岡県', capital: '福岡市' },
   { prefecture: '沖縄県', capital: '那覇市' },
-]
+];
 
 const PrefectureCapitalList = () => {
   return (
@@ -18,10 +18,10 @@ const PrefectureCapitalList = () => {
           <div key={prefectureCapital.prefecture} style={{color: 'blue'}}>
             {prefectureCapital.prefecture} ... {prefectureCapital.capital}
           </div>
-        )
+        );
       })}
     </div>
-  )
-}
+  ;
+};
 
 export default PrefectureCapitalList;
